@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9svT+N/BWJ49iMuZC8GEHT5+Dh5TTooSaWpqGadz74+AAh89xmw5aRJM4BR64V+ZSCgsc61SoA8qpBpAm5z/fQ==",
+  "dgSpecHash": "BXi2f26MJVj6kaABQ1bsiD0OGoFehWTlQKIYDoWVtZDC9/sk1qIdnMmUrt3yLtpWUyg6EUSMOGNGhry2/tklwA==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\SalesWebMvc\\SalesWebMvc\\SalesWebMvc.csproj",
+  "projectFilePath": "C:\\Projetos\\edimar1315\\SalesWebMvc\\SalesWebMvc\\SalesWebMvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edima\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\edima\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
