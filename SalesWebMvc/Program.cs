@@ -6,11 +6,13 @@ builder.Services.AddDbContext<SalesWebMvcContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SalesWebMvcContext") ?? throw new InvalidOperationException("Connection string 'SalesWebMvcContext' not found.")));
 
 // Add services to the container.
+// Adicionar serviços ao contêiner.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+// Configure o pipeline de solicitação HTTP.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
