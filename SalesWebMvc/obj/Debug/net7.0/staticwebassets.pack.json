@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap-Vapor.css"
     },
     {
+      "Id": "C:\\Projetos\\edimar1315\\SalesWebMvc\\SalesWebMvc\\wwwroot\\css\\bootstrap-solar.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-solar.css"
+    },
+    {
       "Id": "C:\\Projetos\\edimar1315\\SalesWebMvc\\SalesWebMvc\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

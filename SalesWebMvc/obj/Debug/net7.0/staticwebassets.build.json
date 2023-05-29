@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YRWoWijnngLoVnjR/BCHf2QlDR6bFiSf4SOrTkkQjWo=",
+  "Hash": "rrDrGrWkLD5oYBmlpkoS1RhbDy0i8lX1rH0W6EzpYA0=",
   "Source": "SalesWebMvc",
   "BasePath": "_content/SalesWebMvc",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projetos\\edimar1315\\SalesWebMvc\\SalesWebMvc\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SalesWebMvc.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Projetos\\edimar1315\\SalesWebMvc\\SalesWebMvc\\wwwroot\\css\\bootstrap-solar.css",
+      "SourceId": "SalesWebMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos\\edimar1315\\SalesWebMvc\\SalesWebMvc\\wwwroot\\",
+      "BasePath": "_content/SalesWebMvc",
+      "RelativePath": "css/bootstrap-solar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-solar.css"
     },
     {
       "Identity": "C:\\Projetos\\edimar1315\\SalesWebMvc\\SalesWebMvc\\wwwroot\\css\\bootstrap-Vapor.css",
