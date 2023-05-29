@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VCXphI1t6trRCZG5PkmIJBETt4dGjBBU0gsuu51JUTw=",
+  "Hash": "YRWoWijnngLoVnjR/BCHf2QlDR6bFiSf4SOrTkkQjWo=",
   "Source": "SalesWebMvc",
   "BasePath": "_content/SalesWebMvc",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projetos\\edimar1315\\SalesWebMvc\\SalesWebMvc\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SalesWebMvc.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Projetos\\edimar1315\\SalesWebMvc\\SalesWebMvc\\wwwroot\\css\\bootstrap-Vapor.css",
+      "SourceId": "SalesWebMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos\\edimar1315\\SalesWebMvc\\SalesWebMvc\\wwwroot\\",
+      "BasePath": "_content/SalesWebMvc",
+      "RelativePath": "css/bootstrap-Vapor.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-Vapor.css"
     },
     {
       "Identity": "C:\\Projetos\\edimar1315\\SalesWebMvc\\SalesWebMvc\\wwwroot\\css\\site.css",
