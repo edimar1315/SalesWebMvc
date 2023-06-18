@@ -1,7 +1,10 @@
-﻿namespace SalesWebMvc.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace SalesWebMvc.Models
 {
     public class Department
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public  int Id { get; set; }
         public string Name { get; set; }
         public ICollection<Seller> sellers { get; set; } = new List<Seller>();

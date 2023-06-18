@@ -1,11 +1,13 @@
 ﻿using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Collections.Generic;
 using System.Linq;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SalesWebMvc.Models
 {
     public class Seller
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
