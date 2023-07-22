@@ -11,12 +11,30 @@ namespace SalesWebMvc.Controllers
         {
             _sellerService = sellerService;
         }
-
-
+        
         public IActionResult Index()
         {
             var list = _sellerService.FindAll();
             return View(list);
         }
+public IActionResult Create()
+        {
+            return View();
+        }
+
+public IActionResult Edit()
+{
+   return View();
+}
+
+public IActionResult Details()
+{
+    return View();
+}
+
+public IActionResult Delete()
+{
+    return View();
+}
     }
 }
