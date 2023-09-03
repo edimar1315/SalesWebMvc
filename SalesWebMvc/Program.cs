@@ -7,7 +7,8 @@ using SalesWebMvc.Services;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SalesWebMvcContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SalesWebMvcContext"), builder =>
-    builder.MigrationsAssembly("SalesWebMvc"))); /*?? throw new InvalidOperationException("Connection string 'SalesWebMvcContext' not found.")));  */
+    builder.MigrationsAssembly("SalesWebMvc"))); // Adicionado para o migration funcionar
+
 
 // Add services to the container.
 // Adicionar serviços ao contêiner.
@@ -17,8 +18,6 @@ builder.Services.AddScoped<SellerService>();
 
 
 var app = builder.Build();
-
-
 
 
 // Configure the HTTP request pipeline.
